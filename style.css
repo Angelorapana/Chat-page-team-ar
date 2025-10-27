@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.chat{
-    display: grid;
-}
-
 header{
     padding: 25px;
     background-color: rgb(7, 124, 66);
@@ -27,3 +23,44 @@ h1 {
     "ELXP" 0;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 5px solid black;
+    border-top: 0;
+    background-color: rgb(3, 148, 75);
+    padding: 25px;
+}
+
+.fontcol1{
+    text-align: left;
+    color: rgb(17, 16, 16);
+    font-style: italic;
+    font-weight: bold;
+    border: 5px solid black;
+    height: 550px;
+}
+
+.fontcol2{
+    text-align: left;
+    color: rgb(14, 14, 14);
+    font-style: italic;
+    font-weight: bold;
+    border: 5px solid black;
+    height: 550px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 5px solid black;
+    border-top: 0;
+    background-color: rgb(3, 148, 75);
+    padding: 25px;
+}
+
+button {
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 999px;
+}
