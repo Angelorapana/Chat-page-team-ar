@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.chat{
+    display: grid;
+}
+
+header{
+    padding: 25px;
+    background-color: rgb(7, 124, 66);
+    border: 5px solid rgb(12, 12, 12);
+}
+
+h1 {
+  font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: auto;
+  font-size:30px;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
