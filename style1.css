@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 25px;
+    background-color: rgb(157, 249, 144);
+    border: 5px solid rgb(12, 12, 12);
+    border-top-left-radius: 999px;
+    border-top-right-radius: 999px;
+}
+
+h1 {
+  font-family: "Bitcount Grid Single", system-ui;
+  text-align: center;
+  font-optical-sizing: auto;
+  font-size:30px;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 5px solid black;
+    border-top: 0;
+    background-color: rgb(157, 249, 144);
+    padding: 25px;
+}
+
+.fontcol1{
+    text-align: ;
+    color: rgb(17, 16, 16);
+    font-style: italic;
+    font-weight: bold;
+    border: 5px solid black;
+    height: 550px;
+    padding-top: 10px;
+    padding-left: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: white;
+    background-image: url(img/OIP\ \(2\).webp);
+    background-size: cover;
+}
+
+.fontcol2{
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-style: italic;
+    font-weight: bold;
+    border: 5px solid black;
+    height: 550px;
+    padding-top: 10px;
+    padding-left: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: white;
+    background-image: url(img/OIP\ \(2\).webp);
+    background-size: cover;
+
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 5px solid black;
+    border-top: 0;
+    background-color: rgb(157, 249, 144);
+    padding: 25px;
+    border-bottom-left-radius: 999px;
+    border-bottom-right-radius: 999px;
+}
+
+.ready {
+    border: 3px solid rgb(4, 0, 0);
+    text-align: center;
+    border-radius: 999px;
+    background-color: rgb(179, 255, 0);
+    font-family: "Bitcount Grid Single", system-ui;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-size:30px;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    display: inline;
+    margin-left: 40px;
+    margin-right: 8px;
+
+}
+
+
+.notready {
+    border: 3px solid rgb(4, 0, 0);
+    text-align: center;
+    border-radius: 999px;
+    background-color: red;
+    font-family: "Bitcount Grid Single", system-ui;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-size:30px;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    display: inline;
+    margin-right: 40px;
+    margin-left: 8px;
+}
+
+.box {
+    width: 900px;
+}
